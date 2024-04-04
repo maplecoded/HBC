@@ -230,7 +230,7 @@
   dl.codebox dt {padding:6px!important;}
 }
 
-@media (min-height:1500px) {
+@media only screen and (max-width: 980px) and (min-height:1500px) {
   :root, *, *::before, *::after {--bradius:12px!important; --fs-bigger:2.57rem!important; --fs-big:2.42rem!important; --fs-body:2.1rem!important; --fs-text:1.9rem!important; --fs-small:1.5rem!important; --fs-smaller:1.1rem!important; --fs-smallest:0.9rem!important; --fs-title:4.17rem!important; --fs-display:4.27rem!important; --fs-h1:4rem!important; --fs-h2:3.5rem!important; --fs-h3:2.7rem!important; --fs-h4:2.5rem!important; --fs-h5:2.2rem!important;}
   body {margin-left:125px!important;}
   header {max-height:800px;}
