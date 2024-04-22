@@ -30,6 +30,7 @@
   .qmadminlinks>a {width:50px!important;height:50px!important;}
   .phmquote:before {min-width:90px!important;}
   .dicethrow .diceres>strong {flex:1 0 11%!important;max-width:115px!important;}
+  .ucp-paneldecontroldelosavatares fieldset {height:500px;}
 }
 @media (min-width: 2100px) {
   :root, *, *::before, *::after {--bradius:10px!important; --fs-bigger:1.37rem!important; --fs-big:1.22rem!important; --fs-body:1.07rem!important; --fs-text:.99rem!important; --fs-small:.82rem!important; --fs-smaller:.76rem!important; --fs-smallest:.72rem!important; --fs-title:6.07rem!important; --fs-display:4.07rem!important; --fs-h1:3.67rem!important; --fs-h2:3.07rem!important; --fs-h3:2.27rem!important; --fs-h4:2.07rem!important; --fs-h5:1.73rem!important;}
