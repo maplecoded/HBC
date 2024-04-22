@@ -30,7 +30,7 @@
   .qmadminlinks>a {width:50px!important;height:50px!important;}
   .phmquote:before {min-width:90px!important;}
   .dicethrow .diceres>strong {flex:1 0 11%!important;max-width:115px!important;}
-  .ucp-paneldecontroldelosavatares fieldset {height:500px;}
+  .ucp-paneldecontroldelosavatares fieldset {height:500px!important;}
 }
 @media (min-width: 2100px) {
   :root, *, *::before, *::after {--bradius:10px!important; --fs-bigger:1.37rem!important; --fs-big:1.22rem!important; --fs-body:1.07rem!important; --fs-text:.99rem!important; --fs-small:.82rem!important; --fs-smaller:.76rem!important; --fs-smallest:.72rem!important; --fs-title:6.07rem!important; --fs-display:4.07rem!important; --fs-h1:3.67rem!important; --fs-h2:3.07rem!important; --fs-h3:2.27rem!important; --fs-h4:2.07rem!important; --fs-h5:1.73rem!important;}
@@ -60,6 +60,7 @@
   .postbody ul li:before {top:13px!important;}
   .dicethrow .diceres>strong {max-width:132px!important;}
   .pbinfo {top:70px!important;}
+  .ucp-paneldecontroldelosavatares fieldset {height:505px!important;}
 }
 @media (min-width: 2400px) {
   :root, *, *::before, *::after {--bradius:10px!important; --fs-bigger:1.47rem!important; --fs-big:1.32rem!important; --fs-body:1.17rem!important; --fs-text:1.09rem!important; --fs-small:.92rem!important; --fs-smaller:.86rem!important; --fs-smallest:.82rem!important; --fs-title:6.17rem!important; --fs-display:4.17rem!important; --fs-h1:3.77rem!important; --fs-h2:3.17rem!important; --fs-h3:2.37rem!important; --fs-h4:2.17rem!important; --fs-h5:1.83rem!important;}
