@@ -88,7 +88,9 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .admiman h3 {text-transform:uppercase; font:900 var(--fs-h3) var(--font1); color:var(--txt1)!important; text-shadow:var(--shadow2); margin:0px!important; line-height:90%!important; padding:0px!important;}
 .admiman>em {text-transform:uppercase; font:bold var(--fs-small) var(--font3); color:var(--txt3); line-height:110%!important; margin-top:4px!important;}
 .admiman dl.codebox {width:100%!important; text-align:justify; text-align-last:center; margin-top:12px!important;}
-.admiman dl.codebox dd {padding:12px!important; font-size:var(--fs-text); color:var(--txt4);}
+.admiman dl.codebox.hidecode dd {padding:12px!important; font-size:var(--fs-text); color:var(--txt4);}
+.admiman dl.codebox.spoiler dd {background:var(--tback1)!important; font-size:var(--fs-text); color:var(--txt4);}
+.admiman dl.codebox.spoiler dt {background:var(--back1)!important;}
 #nonplayercharacters div.flex>br {display:none!important;}
 #nonplayercharacters>div.flex {flex-wrap:wrap; gap:12px; justify-content:center; align-items:center}
 #nonplayercharacters .gbnpc {flex:1 0 40%; width:100%; max-width:400px; min-width:180px; position:relative; height:280px; overflow:hidden; border-radius:var(--bradius); border:var(--border1); --group:var(--accent)!important; --tgroup:var(--taccent)!important;}
