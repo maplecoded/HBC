@@ -20,7 +20,7 @@
 #guidebook .admtitleimg>h2 {font-size:var(--fs-h1); max-width:570px;}
 #guidebook .admtitleimg>em, .admintab .admtitleimg>em {text-transform:uppercase; color:var(--txt4); font:bold var(--fs-small) var(--font3); width:100%; line-height:100%; text-align:justify; text-align-last:center;}
 #guidebook .admtitleimg>em {max-width:570px;}
-#guidebook .admtitmain, .admintab .admtitmain {justify-content:center; align-items:center; text-align:center!important; gap:6px; margin:12px auto 70px; width:100%; max-width:380px; position:relative; border-top:var(--border2); border-bottom:var(--border2); padding:40px 0px; border-radius:var(--bradius);}
+#guidebook .admtitmain, .admintab .admtitmain {justify-content:center; align-items:center; text-align:center!important; gap:6px; margin:12px auto 70px; width:100%; max-width:380px; position:relative; padding:40px 0px;}
 #guidebook .admtitmain:after, .admintab .admtitmain:after {content:"\f329"; font:700 var(--fs-big) var(--font4); position:absolute; bottom:-45px; color:var(--accent)!important;}
 #guidebook .admtitmain *, .admintab .admtitmain * {display:block; position:relative; z-index:1;}
 #guidebook .admtitmain>i, .admintab .admtitmain>i {position:absolute; z-index:0; color:var(--taccent); font-size:var(--fs-display)!important;}
