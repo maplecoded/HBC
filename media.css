@@ -34,7 +34,7 @@
 }
 @media (min-width: 2100px) {
   :root, *, *::before, *::after {--bradius:10px!important; --fs-bigger:1.37rem!important; --fs-big:1.22rem!important; --fs-body:1.07rem!important; --fs-text:.99rem!important; --fs-small:.82rem!important; --fs-smaller:.76rem!important; --fs-smallest:.72rem!important; --fs-title:6.07rem!important; --fs-display:4.07rem!important; --fs-h1:3.67rem!important; --fs-h2:3.07rem!important; --fs-h3:2.27rem!important; --fs-h4:2.07rem!important; --fs-h5:1.73rem!important;}
-  body {margin-left:125px!important;}
+  body#phpbb {margin-left:125px!important;}
   header {max-height:800px;}
   .himg {background-image:var(--pngimg-2);}
   #page-footer .navbar ul {gap:12px;justify-content:space-between;}
@@ -68,7 +68,7 @@
   .nvnlinks>a:before, .nvupanel a:before {font-size:var(--fs-h4)!important;}
 }
 @media (max-width: 1100px) {
-  body {margin-left:70px!important;}
+  body#phpbb {margin-left:70px!important;}
   .nvside {width:70px;padding:20px 10px;}
   .nvava {height:40px;width:40px;}
   ul#notif_list, .navigationpanel {left:90px!important;}
@@ -168,7 +168,7 @@
   .fralicon {top:initial!important;right:initial!important;bottom:72px!important;left:13px!important;}
   #c3 .forum .forcont {min-height:300px;position:relative;}
   #c3 .forum .forava {background:var(--back1);}
-  body {margin-left:50px!important;}
+  body#phpbbmargin-left:50px!important;}
   header {padding:30px;}
   .himg {background-image:var(--pngimg-3);}
   header>a {font-size:var(--fs-h2);}
@@ -235,7 +235,7 @@
 
 @media only screen and (max-width: 980px) and (min-height:1500px) {
   :root, *, *::before, *::after {--bradius:12px!important; --fs-bigger:2.57rem!important; --fs-big:2.42rem!important; --fs-body:2.1rem!important; --fs-text:1.9rem!important; --fs-small:1.5rem!important; --fs-smaller:1.1rem!important; --fs-smallest:0.9rem!important; --fs-title:4.17rem!important; --fs-display:4.27rem!important; --fs-h1:4rem!important; --fs-h2:3.5rem!important; --fs-h3:2.7rem!important; --fs-h4:2.5rem!important; --fs-h5:2.2rem!important;}
-  body {margin-left:125px!important;}
+  body#phpbb {margin-left:125px!important;}
   header {max-height:800px;}
   .hdesc {width:100%;max-width:100%;}
   .himg {background-image:var(--pngimg-2);}
