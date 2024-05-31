@@ -154,6 +154,7 @@
   .phicon img, .phicon:empty:before, .phicon img {width:70px!important;height:70px!important;}
   .postheader, .messheader {padding:20px!important;}
 }
+
 @media (max-width: 600px) {
   .phmname, .phsubject {font-size:var(--fs-h4)!important;}
   .pbsearchpost {font-size:var(--fs-h5)!important;}
@@ -168,7 +169,7 @@
   .fralicon {top:initial!important;right:initial!important;bottom:72px!important;left:13px!important;}
   #c3 .forum .forcont {min-height:300px;position:relative;}
   #c3 .forum .forava {background:var(--back1);}
-  body#phpbbmargin-left:50px!important;}
+  body#phpbb {margin-left:50px!important;}
   header {padding:30px;}
   .himg {background-image:var(--pngimg-3);}
   header>a {font-size:var(--fs-h2);}
@@ -217,6 +218,7 @@
   .sigcont .signature_div>br:first-of-type {display:none!important;}
   .cattitle h2 {margin-bottom:10px!important;}
 }
+
 @media (max-width:500px) {
   mainbody {padding:15px;}
   .mhava {display:none!important;}
