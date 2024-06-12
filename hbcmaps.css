@@ -1,4 +1,7 @@
 /* Estilo mapa genérico */
+.post:has(.postbody .mapa) .postprofile, .post:has(.postbody .mapa) .phmain {display:none!important;}
+.post:has(.postbody .mapa) .mapa {margin: 10px auto;}
+.post:has(.postbody .mapa) .postheader {justify-content: flex-end!important;}
 .mapa { /* diseño base del mapa y su cuadricula */
   margin: auto;
   background-color: #fff4e6;
