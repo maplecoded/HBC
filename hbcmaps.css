@@ -141,10 +141,10 @@
 }
 /* colores personalizados */
 [grupo="azul"] {
-  --accent: #245083;
+  --accent: #2368b7;
 }
 [grupo="rojo"] {
-  --accent: #702424;
+  --accent: #a71f1f;
 }
 [grupo="danger"] {
   --accent: #f5f5f5;
