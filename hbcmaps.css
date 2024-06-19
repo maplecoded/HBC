@@ -102,6 +102,10 @@
   flex-wrap: wrap;
   box-shadow: none !important;
 }
+.mapa .multi > div {
+  width: 50%;
+  height: 50%;
+}
 .mapa .dual div {
   height: calc(calc(var(--map-grid-size) / 2) + 9%);
   width: calc(calc(var(--map-grid-size) / 2) + 9%);
