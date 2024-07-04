@@ -134,6 +134,18 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .admintab details[open=""] span, #guidebook details[open=""] span {margin-top:12px!important; display:block; margin-left:12px;}
 .admintab details.lvl summary, #guidebook details.lvl summary {cursor:var(--crs2);}
 .admintab details.lvl[open=""] span, #guidebook details.lvl[open=""] span {margin-top:0px!important;}
+.admintab .gdcriat {flex:1 0 40%; width:100%; min-width:240px; position:relative; min-height:250px; overflow:hidden; border-radius:var(--bradius); border:var(--border1); --group:var(--accent) !important; --tgroup:var(--taccent)!important; background:var(--tback2); flex-wrap:wrap;}
+.admintab .gdcriat br {display:none!important;}
+.admintab .gdcriat .gdcriatimg {position:relative; flex:1 0 30%; min-width:150px; height:250px; border-right:var(--border1); text-align:right; justify-content:flex-end; align-items:flex-end; padding:12px;}
+.admintab .gdcriat .gdcriatblurb {flex:1 0 45%; overflow:auto; height:250px; min-width:150px; padding:12px;}
+.admintab .gdcriat .gdcriatblurb br {display:initial!important;}
+.admintab .gdcriat .gdcriatimg>img {position:absolute!important; z-index:0!important; height:100%; width:100%; object-position:center; object-fit:cover; filter:var(--filter2); opacity:0.6; inset:0;}
+.admintab .gdcriat .gdcriatimg * {position:relative; z-index:1;}
+.admintab .gdcriat .gdcriatimg .gdcriatname {text-transform:uppercase; font:bold var(--fs-text) var(--font2); color:var(--txt2); text-decoration:underline; text-decoration-thickness:2px; text-underline-offset:2px; line-height:120%; margin-bottom:4px; text-decoration-color:var(--tgroup);}
+.admintab .gdcriat .gdcriatimg .gdcriatcat {text-transform:uppercase; font:bold var(--fs-small) var(--font3); color:var(--txt4); line-height:100%;}
+.admintab .gdcriat .gdcriatstats {flex:1 0 100%; justify-content:space-around; flex-wrap:wrap; border-top:var(--border1); background:var(--tback1); padding:12px; align-items:center; gap:10px;}
+.admintab .gdcriat .gdcriatstats strong {padding:0px 12px; border-radius:var(--bradius); border-left:var(--border2); border-right:var(--border2); font:800 var(--fs-text) var(--font2); color:var(--txt4);}
+.admintab .gdcriat .gdcriatstats strong>i {font-style:normal; font-size:var(--fs-small); font-family:var(--font3); color:var(--accent);}
 /* EXPEDIENTE */
 #expedtab {border:var(--border1); border-radius:var(--bradius); width:100%; max-width:802px; margin:0 auto!important; overflow:hidden;}
 #expedtab>br, #expedtab .extbnam>br, #expedtab #extbcont>br, #expedtab #extbcinfo>br, #expedtab #extbclabels>br, #expedtab #expimg br, #expedtab #expzdata>br, #expedtab .expzone .exptitle>br, #expedtab #expzrhoja>br, #expedtab .expzhstats>br, #expedtab .expzhd>br, #expedtab .expzhtraits>br {display:none!important;}
@@ -632,8 +644,8 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .admiman {padding:20px!important;}
 .admiman h3 {font-size:var(--fs-h4)!important;}
 .gdcriaturas .gdcriat, #itemcatalogue .gdcitem {min-width:100%!important;}
-.gdcriaturas .gdcriat .gdcriatimg {flex:1 0 100%!important; height:150px!important; border-right:none!important; border-bottom:var(--border1);}
-.gdcriaturas .gdcriat .gdcriatblurb {height:210px!important;}
+.gdcriaturas .gdcriat .gdcriatimg, .admintab .gdcriat .gdcriatimg {flex:1 0 100%!important; height:150px!important; border-right:none!important; border-bottom:var(--border1);}
+.gdcriaturas .gdcriat .gdcriatblurb, .admintab .gdcriat .gdcriatblurb {height:210px!important;}
 #expedtab .extbnam {padding:20px;}
 #expedtab #expzhist, #expedtab #expzextr {border-width:15px; padding-right:7px; border-right-width:7px!important;}
 #expedtab #expzrhoja {gap:12px;}
