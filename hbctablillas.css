@@ -134,7 +134,7 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .admintab details[open=""] span, #guidebook details[open=""] span {margin-top:12px!important; display:block; margin-left:12px;}
 .admintab details.lvl summary, #guidebook details.lvl summary {cursor:var(--crs2);}
 .admintab details.lvl[open=""] span, #guidebook details.lvl[open=""] span {margin-top:0px!important;}
-.admintab .gdcriat {flex:1 0 40%; width:100%; min-width:240px; position:relative; min-height:250px; overflow:hidden; border-radius:var(--bradius); border:var(--border1); --group:var(--accent) !important; --tgroup:var(--taccent)!important; background:var(--tback2); flex-wrap:wrap;}
+.admintab .gdcriat {flex:1 0 40%; width:100%; position:relative; min-height:250px; overflow:hidden; border-radius:var(--bradius); border:var(--border1); --group:var(--accent) !important; --tgroup:var(--taccent)!important; background:var(--tback2); flex-wrap:wrap;}
 .admintab .gdcriat br {display:none!important;}
 .admintab .gdcriat .gdcriatimg {position:relative; flex:1 0 30%; min-width:150px; height:250px; border-right:var(--border1); text-align:right; justify-content:flex-end; align-items:flex-end; padding:12px;}
 .admintab .gdcriat .gdcriatblurb {flex:1 0 45%; overflow:auto; height:250px; min-width:150px; padding:12px;}
