@@ -170,8 +170,7 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 #expedtab .colu {width:100%; column-rule:var(--border1); column-gap:20px; display:inline-block;}
 #expedtab .colu.col2 {column-count:2; column-width:220px;}
 #expedtab .colu.col3 {column-count:3; column-width:140px;}
-#expedtab .expzone .exptitle {width:100%; display:inline-flex; flex-direction:column; text-align:center; align-items:center; justify-content:center; margin:0 auto; gap:4px;}
-#expedtab .expzone .exptitle {display:flex; flex-direction:column; text-align:center; align-items:center; justify-content:center; margin:0 auto; gap:4px;}
+#expedtab .expzone .exptitle {width:100%; display:flex; flex-direction:column; text-align:center; align-items:center; justify-content:center; margin:0 auto; gap:4px;}
 #expedtab .expzone .exptitle>i {font-size:var(--fs-display); line-height:var(--fs-display); color:var(--group);}
 #expedtab .expzone .exptitle>b {text-transform:uppercase; font:900 var(--fs-bigger) var(--font2); color:var(--txt1)!important; text-decoration:underline; text-decoration-color:var(--tgroup); text-decoration-thickness:2px; text-underline-offset:3px; line-height:calc(var(--fs-bigger) + 20%);}
 #expedtab .expzone .exptitle>em {text-transform:lowercase; font:600 var(--fs-smaller) var(--font3); font-style:italic; color:var(--txt4); max-width:200px; width:100%; text-align:justify; text-align-last:center;}
