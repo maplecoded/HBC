@@ -47,6 +47,7 @@ div.reminder:before {content:"Aviso: "; color:var(--back1); font-weight:900!impo
 .admintab .registeredsec>em>a {color:var(--accent);}
 .admintab .registeredsec>em>b {color:var(--txt2);}
 .admintab .registeredsec>i {text-transform:uppercase; font:bold var(--fs-smaller) var(--font3); font-style:normal; color:var(--txt4);}
+.admintab .registeredsec>i>a {color:var(--txt3);}
 .registeredsec>em.nemesis:before, .registeredsec>em.NEMESIS:before, .registeredsec>em.némesis:before, .registeredsec>em.NÉMESIS:before, .registeredsec>em.Nemesis:before, .registeredsec>em.Némesis:before {background:var(--tnemesis);}
 .registeredsec>em.tyche:before, .registeredsec>em.TYCHE:before, .registeredsec>em.Tyche:before {background:var(--ttyche);}
 .registeredsec>em.dioniso:before, .registeredsec>em.DIONISO:before, .registeredsec>em.Dioniso:before {background:var(--tdioniso);}
